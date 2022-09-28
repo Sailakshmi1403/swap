@@ -7,3 +7,9 @@ x = y
 y = temp_var
 print('The value of x after swapping is {}'.format(x))
 print('The value of y after swapping is {}'.format(y))
+print('Numbers without using third variable')
+x=x+y
+y=x-y
+x=x-y
+print('The value of x after swapping is without temp variable {}'.format(x))
+print('The value of y after swapping is without temp variable {}'.format(y))
